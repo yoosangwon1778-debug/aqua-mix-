@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {list-style: none;}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Noto sans KR";
+    color: #333333;
+    background-color: #eef8fb;
+}
+
+h1, h2, h3 {
+    font-family: "Jua";
+    font-weight: normal;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 40px 60px;
+}
+h2 {
+    margin: 40px 0 20px;
+    font-size: 28px;
+    color: #0b4f6c;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 40px;
+    background-color: #0b4f6c;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo {
+    font-size: 24px;
+}
+.menu {
+    display: flex;
+    gap: 24px;
+}
+.menu a {
+    font-size: 16px;
+}
+
+/*메인 배너 hero*/
+.hero {
+    display: flex;
+}
